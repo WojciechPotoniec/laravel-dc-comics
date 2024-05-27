@@ -92,6 +92,14 @@ npm install
 
 npm install --save @fortawesome/fontawesome-free
 
+# installato il pacchetto ci ricopiamo i seguenti pezzi di codice in app.scss
+$fa-font-path: "../webfonts" !default;
+
+@import '~@fortawesome/fontawesome-free/scss/fontawesome';
+@import '~@fortawesome/fontawesome-free/scss/fontawesome';
+@import '~@fortawesome/fontawesome-free/scss/solid';
+@import '~@fortawesome/fontawesome-free/scss/brands';
+
 #in vite config aggiungo agli alias
 '~@fortawesome': path.resolve(__dirname, 'node_modules/@fortawesome'),
 
