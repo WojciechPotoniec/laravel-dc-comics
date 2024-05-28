@@ -1,5 +1,5 @@
 @extends('layouts.app')
 
-@section('card')
+@section('content')
 @include('partials.card')
 @endsection
