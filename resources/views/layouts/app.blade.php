@@ -18,9 +18,8 @@
 <body>
     @include('partials.header')
     @yield('jumbo')
-    <main class="container">
+    <main>
         @yield('content')
-        @yield('card')
     </main>
     @include('partials.footer')
 </body>
