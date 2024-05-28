@@ -19,6 +19,8 @@ class AppServiceProvider extends ServiceProvider
      */
     public function boot(): void
     {
-        //
+        $listCard = config('comics_db.listCards');
+        $mainlists = config('comics_db.mainlists');
+        view()->share(compact('listCard', 'mainlists'));
     }
 }
