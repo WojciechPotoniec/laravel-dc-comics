@@ -1,14 +1,14 @@
 $fa-font-path: "../webfonts" !default;
 
-@import '~@fortawesome/fontawesome-free/scss/fontawesome';
-@import '~@fortawesome/fontawesome-free/scss/fontawesome';
-@import '~@fortawesome/fontawesome-free/scss/solid';
-@import '~@fortawesome/fontawesome-free/scss/brands';
+@import "~@fortawesome/fontawesome-free/scss/fontawesome";
+@import "~@fortawesome/fontawesome-free/scss/fontawesome";
+@import "~@fortawesome/fontawesome-free/scss/solid";
+@import "~@fortawesome/fontawesome-free/scss/brands";
 
-@import '~bootstrap/scss/bootstrap';
+@import "~bootstrap/scss/bootstrap";
 
-body{
-    font-family: 'Open Sans', sans-serif;
+body {
+    font-family: "Open Sans", sans-serif;
 }
 //** HEADER **//
 header {
@@ -94,5 +94,64 @@ h5 {
         height: 100%;
         object-fit: cover;
         object-position: top;
+    }
+}
+//** FOOTER-TOP **//
+.top {
+    background-color: #0282f9;
+    padding: 35px 0;
+    img {
+        width: 50px;
+        height: 60px;
+    }
+    ul {
+        list-style: none;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        li {
+            margin: 0 20px;
+            a {
+                color: white;
+                text-decoration: none;
+                margin: 0 5px;
+                text-transform: uppercase;
+            }
+        }
+    }
+}
+//** FOOTER-MID **//
+.mid {
+    background-image: url(/resources/img/footer-bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    .left {
+        display: flex;
+        flex-wrap: wrap;
+        width: 40%;
+    }
+    ul {
+        list-style: none;
+        margin-top: 30px;
+    }
+    span {
+        text-transform: uppercase;
+        font-weight: 900;
+    }
+    a {
+        text-decoration: none;
+        color: grey;
+        font-size: 0.9rem;
+        &:hover {
+            color: #0282F9;
+        }
+    }
+
+    .right {
+        width: 60%;
+        background-image: url(/resources/img/dc-logo-bg.png);
+        background-repeat: no-repeat;
+        background-position: center;
     }
 }
