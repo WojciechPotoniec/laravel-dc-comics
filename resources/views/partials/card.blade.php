@@ -1,6 +1,6 @@
 <div class="col-12 col-sm-6 col-md-4 col-lg-3 col-xl-2 mb-4 text-light">
     <div class="wp-card-img">
-        <img src="{{ $comic->thumb }}" class="card-img-top" alt="{{ $comic->title }}"/>
+        <img src="{{ $comic->thumb }}" class="card-img-top" alt="{{ $comic->title }}" />
     </div>
     <div class="card-body">
         <h5 class="card-text">{{ $comic->title }}</h5>
@@ -9,5 +9,11 @@
         <p class="card-text">Di tipo: {{ $comic->type }}</p>
         <h6>Prezzo: {{ $comic->price }}</h6>
         <a href="{{ route('comics.show', $comic->id) }}" class="btn btn-primary">Dettagli</a>
+        <form action="{{ route('comics.destroy', $comic->id) }}" method="POST" class="d-inline">
+            @csrf
+            {{-- aggiungiamo il metodo --}}
+            @method('DELETE')
+            <input type="submit" value="Rimuovi" class="btn btn-danger">
+        </form>
     </div>
 </div>
