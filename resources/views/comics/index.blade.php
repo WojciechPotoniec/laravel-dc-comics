@@ -1,9 +1,11 @@
 @extends('layouts.app')
 
 @section('content')
-<div class="row">
-    @foreach ($comics as $comic)
+<div class="container">
+    <div class="row">
+        @foreach ($comics as $comic)
         @include('partials.card')
-    @endforeach
+        @endforeach
+    </div>
 </div>
 @endsection
