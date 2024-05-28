@@ -85,7 +85,7 @@ return [
         ],
         [
             "title" => "Batman: Three Jokers #1",
-            "description" => "Thirty years after Batman: The Killing Joke changed comics forever, Three Jokers reexamines the myth of who, or what, The Joker is and what is at the heart of his eternal battle with Batman. New York Times bestselling writer Geoff Johns and Jason Fabok, the writer/artist team that waged the “Darkseid War” in the pages of Justice League, reunite to tell the ultimate story of Batman and The Joker! After years of anticipation starting in DC Universe: Rebirth #1, the epic miniseries you’ve been waiting for is here: find out why there are three Jokers, and what that means for the Dark Knight and the Clown Prince of Crime. It’s a mystery unlike any Batman has ever faced!",
+            "description" => "Thirty years after Batman: The Killing Joke changed comics forever, Three Jokers reexamines the myth of who, or what, The Joker is and what is at the heart of his eternal battle with Batman. New York Times bestselling writer Geoff Johns and Jason Fabok, the writer/artist team that waged the “Darkseid War” in the pages of Justice League, reunite to tell the ultimate story of Batman and The Joker! After years of anticipation starting in DC Universe: Rebirth #1, the epic miniseries you’ve been waiting for is her: find out why there are three Jokers, and what that means for the Dark Knight and the Clown Prince of Crime. It’s a mystery unlike any Batman has ever faced!",
             "thumb" => "https://static.wikia.nocookie.net/marvel_dc/images/6/64/Batman_Three_Jokers_Collected.jpg",
             "price" => "$6.99",
             "series" => "Batman: Three Jokers",
@@ -110,6 +110,76 @@ return [
             "sale_date" => "2019-04-10",
             "type" => "graphic novel",
         ]
-    ]
+    ],
+
+    "listCards" => [
+        [
+            "img" => "/resources/img/buy-comics-digital-comics.png",
+            "title" => "Digital Comics",
+        ],
+        [
+            "img" => "/resources/img/buy-comics-merchandise.png",
+            "title" => "DC Merchandise",
+        ],
+        [
+            "img" => "/resources/img/buy-comics-subscriptions.png",
+            "title" => "Subscription",
+        ],
+        [
+            "img" => "/resources/img/buy-comics-shop-locator.png",
+            "title" => "Comic Shop Locator",
+        ],
+        [
+            "img" => "/resources/img/buy-dc-power-visa.svg",
+            "title" => "DC Power Visa",
+        ]
+    ],
+    "mainlists" => [
+        [
+            "title" => 'DC COMICS',
+            "list" => [
+                'Characters',
+                'Comics',
+                'Movies',
+                'TV',
+                'Games',
+                'Videos',
+                'News'
+            ]
+        ],
+        [
+            "title" => 'DC',
+            "list" => [
+                'Terms Of Use',
+                'Privacy policy (New)',
+                'Ad Choices',
+                'Advertising',
+                'Jobs',
+                'Subscriptions',
+                'Talent Workshops',
+                'CPSC Certificates',
+                'Ratings',
+                'Shop Help',
+                'Contact Us'
+            ]
+        ],
+        [
+            "title" => 'SITES',
+            "list" => [
+                'DC',
+                'MAD Magazine',
+                'DC Kids',
+                'DC Universe',
+                'DC Power Visa'
+            ]
+        ],
+        [
+            "title" => 'SHOP',
+            "list" => [
+                'Shop DC',
+                'Shop DC Collectibles'
+            ]
+        ]
+    ],
 ];
 
