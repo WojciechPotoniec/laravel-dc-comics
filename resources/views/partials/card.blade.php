@@ -13,7 +13,25 @@
             @csrf
             {{-- aggiungiamo il metodo --}}
             @method('DELETE')
-            <input type="submit" value="Rimuovi" class="btn btn-danger">
+            <input type="submit" value="Rimuovi" class="btn btn-danger" id="comicDelete">
         </form>
+        <a href="{{route('comics.edit', $comic->id)}}" class="btn btn-warning">Modifica</a>
+    </div>
+</div>
+<div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h1 class="modal-title fs-5" id="exampleModalLabel">{{$comic->title}}</h1>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+                Sei sicuro di voler eliminare questo prodotto?
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">No</button>
+                <button type="button" class="btn btn-primary">Si, cancella</button>
+            </div>
+        </div>
     </div>
 </div>

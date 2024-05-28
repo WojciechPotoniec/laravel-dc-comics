@@ -6,11 +6,11 @@
           <h4>
             {{$list['title']}}
           </h4>
-          @endforeach
           @foreach ($list['list'] as $item)
           <li>
             <a href="#">{{ $item }}</a>
           </li>
+          @endforeach
           @endforeach
         </ul>
       </div>

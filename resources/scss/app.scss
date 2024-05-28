@@ -144,7 +144,7 @@ h5 {
         color: grey;
         font-size: 0.9rem;
         &:hover {
-            color: #0282F9;
+            color: #0282f9;
         }
     }
 
@@ -153,5 +153,36 @@ h5 {
         background-image: url(/resources/img/dc-logo-bg.png);
         background-repeat: no-repeat;
         background-position: center;
+    }
+}
+//** FOOTER-BOTTOM **//
+.bottom {
+    background-color: #303030;
+
+    button {
+        border: #0282f9 solid 2px;
+        padding: 6px;
+        background-color: transparent;
+        color: white;
+        font-weight: 600;
+        &:hover {
+            color: #0282f9;
+            background-color: white;
+            transition: 0.8s;
+        }
+    }
+    ul {
+        list-style: none;
+        span {
+            color: #0282f9;
+            text-transform: uppercase;
+        }
+        a {
+            text-decoration: none;
+            margin-left: 20px;
+        }
+    }
+    img:hover {
+        opacity: 0.6;
     }
 }

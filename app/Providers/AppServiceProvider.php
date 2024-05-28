@@ -21,6 +21,7 @@ class AppServiceProvider extends ServiceProvider
     {
         $listCard = config('comics_db.listCards');
         $mainlists = config('comics_db.mainlists');
-        view()->share(compact('listCard', 'mainlists'));
+        $iconimgs = config('comics_db.iconimgs');
+        view()->share(compact('listCard', 'mainlists', 'iconimgs'));
     }
 }

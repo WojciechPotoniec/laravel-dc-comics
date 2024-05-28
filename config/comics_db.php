@@ -181,5 +181,27 @@ return [
             ]
         ]
     ],
+    "iconimgs" => [
+        [
+            "img" => "/resources/img/footer-facebook.png",
+            "title" => "Facebook",
+        ],
+        [
+            "img" => "../resources/img/footer-twitter.png",
+            "title" => "Twitter",
+        ],
+        [
+            "img" => "/resources/img/footer-youtube.png",
+            "title" => "Youtube",
+        ],
+        [
+            "img" => "/resources/img/footer-pinterest.png",
+            "title" => "Pinterest",
+        ],
+        [
+            "img" => "/resources/img/footer-periscope.png",
+            "title" => "Periscope",
+        ],
+    ],
 ];
 
