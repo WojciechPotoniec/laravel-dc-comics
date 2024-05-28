@@ -17,13 +17,12 @@
 
 <body>
     @include('partials.header')
-
-    <main>
+    @yield('jumbo')
+    <main class="container">
         @yield('content')
+        @yield('card')
     </main>
-
     @include('partials.footer')
-
 </body>
 
 </html>
