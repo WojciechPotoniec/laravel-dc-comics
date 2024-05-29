@@ -80,12 +80,6 @@ main {
     }
 }
 //** CARD **//
-h5 {
-    text-transform: uppercase;
-    color: white;
-    font-size: medium;
-    margin-top: 20px;
-}
 .wp-card-img {
     width: 200px;
     height: 200px;
@@ -95,6 +89,12 @@ h5 {
         object-fit: cover;
         object-position: top;
     }
+}
+h5 {
+    text-transform: uppercase;
+    color: white;
+    font-size: medium;
+    margin-top: 20px;
 }
 //** FOOTER-TOP **//
 .top {
