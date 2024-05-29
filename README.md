@@ -176,3 +176,21 @@ Route::resource('NomeModel', NomeController::class);
 # creo le views relative
 
 ```
+
+```bash
+
+## Creazione pagine
+php artisan vendor:publish --tag=laravel-pagination
+
+## Creazione error
+php artisan vendor:publish --tag=laravel-errors
+
+## Creazione traduzioni
+php artisan lang:publish
+
+## creazione file di validazione dello store
+php artisan make:request StoreNome_ModelRequest
+
+## creazione file di validazione dello update
+php artisan make:request UpdateNome_ModelRequest
+```
